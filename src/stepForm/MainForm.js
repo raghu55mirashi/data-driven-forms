@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import UserDetails from './UserDetails';
-import PersonalDetails from './OtherDetails';
+import OtherDetails from './OtherDetails';
 import Success from './Success';
 
 class MainForm extends Component {
@@ -54,7 +54,7 @@ class MainForm extends Component {
             case 2:
                 return (<div>
                     {this.customBadge(step)}
-                    <PersonalDetails
+                    <OtherDetails
                         nextStep={this.nextStep}
                         prevStep={this.prevStep}
                     /></div>)
