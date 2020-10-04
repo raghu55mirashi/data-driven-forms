@@ -5,13 +5,7 @@ import Success from './Success';
 
 class MainForm extends Component {
     state = {
-        step: 1,
-        firstName: '',
-        lastName: '',
-        email: '',
-        age: '',
-        city: '',
-        country: ''
+        step: 1
     }
 
     nextStep = () => {

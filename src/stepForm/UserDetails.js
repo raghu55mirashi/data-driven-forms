@@ -32,65 +32,65 @@ const UserDetails = (props) => {
                     }
                 ]
             },
-            // {
-            //     component: componentTypes.TEXT_FIELD,
-            //     name: 'email',
-            //     label: 'Email',
-            //     validate: [
-            //         {
-            //             type: validatorTypes.PATTERN,
-            //             pattern: /^([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9_\-.]+)\.([a-zA-Z]{2,5})$/,
-            //             message: 'Invalid email'
-            //         },
-            //         {
-            //             type: validatorTypes.REQUIRED,
-            //             message: 'Email must be required'
-            //         }
-            //     ]
-            // },
-            // {
-            //     component: componentTypes.TEXTAREA,
-            //     name: 'address',
-            //     label: 'Address',
-            //     validate: [
-            //         {
-            //             type: validatorTypes.REQUIRED,
-            //             message: 'Address must be required'
-            //         }
-            //     ]
-            // },
-            // {
-            //     component: componentTypes.DATE_PICKER,
-            //     name: 'dateofbirth',
-            //     label: 'Date of Birth',
-            //     type: 'date',
-            //     validate: [
-            //         {
-            //             type: validatorTypes.REQUIRED
-            //         }
-            //     ]
-            // },
-            // {
-            //     component: "radio",
-            //     name: "gender",
-            //     label: "Select gender",
-            //     options: [
-            //         {
-            //             "value": "male",
-            //             "label": "Male"
-            //         },
-            //         {
-            //             "value": "female",
-            //             "label": "Female"
-            //         }
-            //     ],
-            //     validate: [
-            //         {
-            //             type: validatorTypes.REQUIRED,
-            //             message: 'Please select gender'
-            //         }
-            //     ]
-            // },
+            {
+                component: componentTypes.TEXT_FIELD,
+                name: 'email',
+                label: 'Email',
+                validate: [
+                    {
+                        type: validatorTypes.PATTERN,
+                        pattern: /^([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9_\-.]+)\.([a-zA-Z]{2,5})$/,
+                        message: 'Invalid email'
+                    },
+                    {
+                        type: validatorTypes.REQUIRED,
+                        message: 'Email must be required'
+                    }
+                ]
+            },
+            {
+                component: componentTypes.TEXTAREA,
+                name: 'address',
+                label: 'Address',
+                validate: [
+                    {
+                        type: validatorTypes.REQUIRED,
+                        message: 'Address must be required'
+                    }
+                ]
+            },
+            {
+                component: componentTypes.DATE_PICKER,
+                name: 'dateofbirth',
+                label: 'Date of Birth',
+                type: 'date',
+                validate: [
+                    {
+                        type: validatorTypes.REQUIRED
+                    }
+                ]
+            },
+            {
+                component: "radio",
+                name: "gender",
+                label: "Select gender",
+                options: [
+                    {
+                        "value": "male",
+                        "label": "Male"
+                    },
+                    {
+                        "value": "female",
+                        "label": "Female"
+                    }
+                ],
+                validate: [
+                    {
+                        type: validatorTypes.REQUIRED,
+                        message: 'Please select gender'
+                    }
+                ]
+            },
 
 
             // {
