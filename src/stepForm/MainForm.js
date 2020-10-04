@@ -21,9 +21,6 @@ class MainForm extends Component {
             step: step - 1
         })
     }
-    handleChange = (e) => {
-        this.setState({ firstName: e })
-    }
     customBadge = (step) => {
         const badgeStyle = {
             padding: '8px 10px',
